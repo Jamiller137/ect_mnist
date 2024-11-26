@@ -1,9 +1,12 @@
+import os
+
+import h5py
 import numpy as np
+from tqdm import tqdm  # For progress bar
+
 from src.mnist_loader import MNISTLoader
 from src.transform_3d import ImageTo3D
-import os
-import h5py
-from tqdm import tqdm  # For progress bar
+
 
 def process_and_save_data():
     # Create save directory

@@ -1,5 +1,6 @@
 from sklearn.datasets import fetch_openml
 
+
 class MNISTLoader:
     def __init__(self):
         self.X, self.y = fetch_openml('mnist_784', version=1, return_X_y=True, as_frame=False)

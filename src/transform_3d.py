@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class ImageTo3D:
     def __init__(self):
         self.center_value = 0.5
