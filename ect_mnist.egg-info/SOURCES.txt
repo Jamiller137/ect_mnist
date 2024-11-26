@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+ect_mnist.egg-info/PKG-INFO
+ect_mnist.egg-info/SOURCES.txt
+ect_mnist.egg-info/dependency_links.txt
+ect_mnist.egg-info/requires.txt
+ect_mnist.egg-info/top_level.txt
+src/__init__.py
+src/mnist_loader.py
+src/preprocess_import.py
+src/transform_3d.py
+tests/test_import.py

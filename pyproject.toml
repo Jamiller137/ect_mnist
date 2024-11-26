@@ -1,0 +1,51 @@
+[project]
+name = "ect_mnist"
+version = "0.1.0"
+description = "MNIST 3D visualization project"
+authors = [
+    {name = "Jacob Miller", email = "jacob-miller-2@uiowa.edu"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+    "contourpy>=1.3.1",
+    "cycler>=0.12.1",
+    "fonttools>=4.55.0",
+    "h5py>=3.12.1",
+    "joblib>=1.4.2",
+    "kiwisolver>=1.4.7",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.3",
+    "packaging>=24.2",
+    "pandas>=2.2.3",
+    "pillow>=11.0.0",
+    "plotly>=5.24.1",
+    "pyparsing>=3.2.0",
+    "python-dateutil>=2.9.0",
+    "pytz>=2024.2",
+    "ruff>=0.8.0",
+    "scikit-learn>=1.5.2",
+    "scipy>=1.14.1",
+    "six>=1.16.0",
+    "tenacity>=9.0.0",
+    "threadpoolctl>=3.5.0",
+    "tk>=0.1.0",
+    "tqdm>=4.67.1",
+    "zen-mapper>=0.1.5",
+]
+
+[build-system]
+requires = ["setuptools>=75.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.8.0",
+]

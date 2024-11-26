@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ect_mnist
+Version: 0.1.0
+Summary: MNIST 3D visualization project
+Author-email: Jacob Miller <jacob-miller-2@uiowa.edu>
+Requires-Python: >=3.13
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: contourpy>=1.3.1
+Requires-Dist: cycler>=0.12.1
+Requires-Dist: fonttools>=4.55.0
+Requires-Dist: h5py>=3.12.1
+Requires-Dist: joblib>=1.4.2
+Requires-Dist: kiwisolver>=1.4.7
+Requires-Dist: matplotlib>=3.9.2
+Requires-Dist: numpy>=2.1.3
+Requires-Dist: packaging>=24.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pillow>=11.0.0
+Requires-Dist: plotly>=5.24.1
+Requires-Dist: pyparsing>=3.2.0
+Requires-Dist: python-dateutil>=2.9.0
+Requires-Dist: pytz>=2024.2
+Requires-Dist: ruff>=0.8.0
+Requires-Dist: scikit-learn>=1.5.2
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: six>=1.16.0
+Requires-Dist: tenacity>=9.0.0
+Requires-Dist: threadpoolctl>=3.5.0
+Requires-Dist: tk>=0.1.0
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: zen-mapper>=0.1.5
+Provides-Extra: dev
+Requires-Dist: ruff>=0.8.0; extra == "dev"
