@@ -43,7 +43,7 @@ class ImageTo3D:
          
         # Scale to unit ball
         points[:, 2] *= self.grayscale_weight
-        max_radius = np.sqrt(14**2 + 14**2 + (self.center_value * self.grayscale_weight)**2)
+        max_radius = np.sqrt(2 * 14**2 + (self.center_value * self.grayscale_weight)**2)
         points /= max_radius
         
         return points

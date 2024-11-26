@@ -22,9 +22,8 @@ def process_and_save_data():
     X_train, y_train = loader.get_data(train=True)
 
     # Create HDF5 file for training data
-    h5_filename = os.path.join(save_dir, 'mnist_3d_train.h5')
+    h5_filename = os.path.join(save_dir, 'mnist_3d_cloud.h5')
     with h5py.File(h5_filename, 'w') as f:
-        # Store labels as integers (not strings)
         f.create_dataset('labels', data=y_train)
 
         # Create groups for original images and 3D points
