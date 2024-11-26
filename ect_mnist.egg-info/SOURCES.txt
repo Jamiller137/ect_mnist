@@ -7,6 +7,7 @@ ect_mnist.egg-info/dependency_links.txt
 ect_mnist.egg-info/requires.txt
 ect_mnist.egg-info/top_level.txt
 src/__init__.py
+src/construct_complex.py
 src/mnist_loader.py
 src/preprocess_import.py
 src/transform_3d.py
