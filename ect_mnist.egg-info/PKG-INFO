@@ -23,6 +23,7 @@ Requires-Dist: pytz>=2024.2
 Requires-Dist: ruff>=0.8.0
 Requires-Dist: scikit-learn>=1.5.2
 Requires-Dist: scipy>=1.14.1
+Requires-Dist: setuptools>=75.6.0
 Requires-Dist: six>=1.16.0
 Requires-Dist: tenacity>=9.0.0
 Requires-Dist: threadpoolctl>=3.5.0
