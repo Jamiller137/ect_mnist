@@ -10,5 +10,7 @@ src/__init__.py
 src/construct_complex.py
 src/mnist_loader.py
 src/preprocess_import.py
+src/process_data.py
+src/simplicial_complex.py
 src/transform_3d.py
 tests/test_import.py
